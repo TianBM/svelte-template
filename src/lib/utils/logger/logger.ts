@@ -16,7 +16,7 @@ export class Logger {
 	}
 
 	public debug(...data: unknown[]): void {
-		this.log(console.log, LogLevel.Debug, data);
+		this.log(console.debug, LogLevel.Debug, data);
 	}
 
 	public info(...data: unknown[]): void {
